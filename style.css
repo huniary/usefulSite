@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: darkgray;
+}
+
+body div{
+
+    width: 220px;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+div input{
+    border: 1;
+    text-align: center;
+    border-radius: 4px;
+    background: darkgray;
+    cursor: pointer;
+}
+
+div input:hover {
+    border: 1px solid rgb(93, 90, 90);
+}
+
+#clean{
+    margin-left: 70px;
+}
+
+form{
+
+    text-align: center;
+    display:inline;
+}
+
+ul{
+    margin-top: 80px;
+}
+
+button{
+    border: none;
+    outline: none;
+    background: rgb(107, 103, 103);
+    border-radius: 4px;
+    font-size: 0.2rem;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+ul li button{
+    float: right;
+}
